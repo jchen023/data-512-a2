@@ -1,17 +1,26 @@
 # data-512-a2
 
 ## Goal
-This project is for Homework (A2)[https://docs.google.com/document/d/11eswL84T-H6bli8aX_-XndCN6tAZ4bIb9Z2ywiIf2fE/edit#] of the DATA-512 Human Centered Data Science class at the University of Washington. 
+This project is for Homework [A2](https://docs.google.com/document/d/11eswL84T-H6bli8aX_-XndCN6tAZ4bIb9Z2ywiIf2fE/edit#) of the DATA-512 Human Centered Data Science class at the University of Washington. 
 
 The project seeks to explore the concept of bias through data on Wikipedia articles - specifically, articles on political figures from a variety of countries. I  will combine a dataset of Wikipedia articles with a dataset of country populations, and use a machine learning service called ORES to estimate the quality of each article.
 
 ## Data Source
 Two original data sources are used - 
-- The Wikipedia politicians by country dataset can be found on (Figshare)[https://figshare.com/articles/dataset/Untitled_Item/5513449]. More specifically, I will use *page_data.csv* for this assignment.
-- The population data is available in CSV format as (*WPDS_2020_data.csv*)[]https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit#gid=283125346. This dataset is drawn from the (world population data sheet)[https://www.prb.org/international/indicator/population/table/] published by the Population Reference Bureau.
+- The Wikipedia politicians by country dataset can be found on [Figshare](https://figshare.com/articles/dataset/Untitled_Item/5513449). More specifically, I will use *page_data.csv* for this assignment.
+- The population data is available in CSV format as [*WPDS_2020_data.csv*](https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit#gid=283125346). This dataset is drawn from the [world population data sheet](https://www.prb.org/international/indicator/population/table/) published by the Population Reference Bureau.
 
 
-## Data Explained
+## Cleaned Data Schema
+Here is the data schema for wp_wpds_politicians_by_country.csv in the data_cleaned folder.
+|Column|Description|Mapping from the API calls|
+|-|-|-|
+|country|The country where the politician is from.|From both WPDS and page_data.|
+|article_name|The article name of the politician|From page_data.|
+|revision_id|The identifier of the Wikipedia article.|From page_data.|
+|article_quality_est.| The quality estimate from the ML model|ORES API|
+|population|The population of the country.|From WPDS.|
+
 
 ## Reflections and Implications
 
@@ -38,3 +47,4 @@ From regions' rankings in bothe the good article and all article coverage, Ocean
 Most of the crime research use race as a variable. However, the data and research has significant endogenity concerns. Black people are targeted by the police and therefore would have higher rate. The bias here needs further research and understand, and can NEVER be used in causal inference.
 
 ## API License
+
