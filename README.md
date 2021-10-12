@@ -24,6 +24,8 @@ Second of all, no models are perfect, and when we utilized a machine learning mo
 From regions' rankings in bothe the good article and all article coverage, Oceania, Europe and America rank higher than Africa and Asia. It is not surprising that is the case as Oceania, Europe, and America have predominantly Anglo_Saxon culture, whereas Africa and Asian have distinct culture, whether in the root of their language and the current lifestyle. More importantly, most people in Africa or Asia cannot speak/write English fluently. This creates a bias in a less population available to write articles about their politicians on Wikipedia in English.
 
 
+### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
 
+Most of the crime research use race as a variable. However, the data and research has significant endogenity concerns. Black people are targeted by the police and therefore would have higher rate. The bias here needs further research and understand, and can NEVER be used in causal inference.
 
 ## API License
