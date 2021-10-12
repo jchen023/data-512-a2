@@ -46,5 +46,6 @@ From regions' rankings in bothe the good article and all article coverage, Ocean
 
 Most of the crime research use race as a variable. However, the data and research has significant endogenity concerns. Black people are targeted by the police and therefore would have higher rate. The bias here needs further research and understand, and can NEVER be used in causal inference.
 
-## API License
-
+## API
+This assignment used [ORES API](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model) to determine the Wikipedia articles' quality.
+ORES API is part of the Wikimedia REST API. The license and terms of Wikimedia Foundation Rest API can be found [here](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions).
