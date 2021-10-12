@@ -12,7 +12,7 @@ Two original data sources are used -
 
 
 ## Cleaned Data Schema
-Here is the data schema for wp_wpds_politicians_by_country.csv in the data_cleaned folder.
+Here is the data schema for wp_wpds_politicians_by_country.csv in the data_clean folder.
 |Column|Description|Mapping from the API calls|
 |-|-|-|
 |country|The country where the politician is from.|From both WPDS and page_data.|
