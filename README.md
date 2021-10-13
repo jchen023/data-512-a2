@@ -6,13 +6,13 @@ This project is for Homework [A2](https://docs.google.com/document/d/11eswL84T-H
 The project seeks to explore the concept of bias through data on Wikipedia articles - specifically, articles on political figures from a variety of countries. I  will combine a dataset of Wikipedia articles with a dataset of country populations, and use a machine learning service called ORES to estimate the quality of each article.
 
 ## Data Sources
-Two original data sources are used - 
+Two original data sources are used (filed can be found in the data_raw folder) - 
 - The Wikipedia politicians by country dataset can be found on [Figshare](https://figshare.com/articles/dataset/Untitled_Item/5513449). More specifically, I will use *page_data.csv* for this assignment.
 - The population data is available in CSV format as [*WPDS_2020_data.csv*](https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit#gid=283125346). This dataset is drawn from the [world population data sheet](https://www.prb.org/international/indicator/population/table/) published by the Population Reference Bureau.
 
 
 ## Cleaned Data Schema
-Here is the data schema for wp_wpds_politicians_by_country.csv in the data_clean folder.
+Here is the data schema for wp_wpds_politicians_by_country.csv in the data_cleaned folder.
 |Column|Description|Mapping from the API calls|
 |-|-|-|
 |country|The country where the politician is from.|From both WPDS and page_data.|
