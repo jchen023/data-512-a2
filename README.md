@@ -10,6 +10,7 @@ Two original data sources are used (filed can be found in the data_raw folder) -
 - The Wikipedia politicians by country dataset can be found on [Figshare](https://figshare.com/articles/dataset/Untitled_Item/5513449). More specifically, I will use *page_data.csv* for this assignment.
 - The population data is available in CSV format as [*WPDS_2020_data.csv*](https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit#gid=283125346). This dataset is drawn from the [world population data sheet](https://www.prb.org/international/indicator/population/table/) published by the Population Reference Bureau. The Population and Name columns are what I will be using.
 
+The data is released under the [CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). 
 
 ## Cleaned Data Schema
 Here is the data schema for wp_wpds_politicians_by_country.csv in the data_cleaned folder.
